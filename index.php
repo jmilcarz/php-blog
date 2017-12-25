@@ -24,7 +24,7 @@
      <div>
           <h3><?= $post['post_title']; ?></h3>
           <p><?= $post['post_body']; ?></p>
-          <a href=""></a>
+          <a href="./article/<?php echo $post['post_slug']; ?>">czytaj dalej</a>
           <hr>
      </div>
 
